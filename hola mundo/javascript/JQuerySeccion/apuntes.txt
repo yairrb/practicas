@@ -1,0 +1,16 @@
+
+
+bus de memoria 32 bits tenes 2^32 bits para direccionar
+
+4gb de ram
+espacio logico
+
+
+modos de memoria
+modo real
+direccion logica que apunta directamente a la direccion fisica en memoria
+
+modo flat
+unico espacio de direcciones.
+hay una direccion base que representa al segmento.
+no hay ningun limite para la memoria.

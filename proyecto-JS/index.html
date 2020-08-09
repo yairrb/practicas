@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto con Javascript</title>
+    <!-- estilos css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+    <!-- jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <!-- mis scripts-->
+    <script src="js/main.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--momentjs-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+</head>
+
+<body>
+    <div id="selectorTheme">
+        <div id="toGreen"></div>
+        <div id="toRed"></div>
+        <div id="toBlue"></div>
+    </div>
+    <section id="global">
+        <!-- cabezera de la pagina-->
+        <header>
+            <div id="logo">
+                <h1>Projecto JS</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="reloj.html">reloj</a></li>
+                    <li><a href="aboutme.html">sobre mi</a></li>
+                    <li><a href="contact.html">contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- slider-->
+        <div id="slider">
+            <div class="bxslider">
+                <div><img src="imagenes/dev1.png" title="Dev1"></div>
+                <div><img src="imagenes/dev4.jpg" title="Dev2"></div>
+                <div><img src="imagenes/dev5.jpeg" title="Dev3"></div>
+              </div>
+        </div>
+
+        <!-- contenido-->
+        <section id="content">
+            <div id="posts">
+
+
+            </div>
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4>sobre mi</h4>
+                    <img src="imagenes/developer.jpeg">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate, turpis ac
+                        rutrum dapibus, tellus ipsum ornare est, vel pharetra ligula urna id justo.
+                    </p>
+                </div>
+                <hr />
+
+                <div id="login">
+                    <form action="">
+                        <h4>Identificate</h4>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="formName"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="formEmail"/>
+
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" id="formPass"/>
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+
+            </aside>
+            <div class="clearfix"></div>
+
+        </section>
+    </section>
+     
+    <footer>
+        Master en Javascript
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+
+</body>
+
+</html>

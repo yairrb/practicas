@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<HTMl lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Aprendiendo JQuery</title>
+
+    <link rel="stylesheet" href="source/jquery-ui-1/jquery-ui.min.css">
+    <link rel="stylesheet" href="source/jquery-ui-1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="source/jquery-ui-1/jquery-ui.theme.min.css">
+    <script type="text/javascript" src="source/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="source/jquery-ui-1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="source/pruebasConJqueryUI.js"></script>
+
+    <style>
+        .elemento {
+            width: 300px;
+            height: 200px;
+            border: 4px solid black;
+            background: lightblue;
+            margin: 20px;
+            float: left;
+        }
+        .cajaEfecto {
+            width: 300px;
+            height: 200px;
+            border: 4px solid black;
+            background: green;
+            margin: 20px;
+            float: left;
+            display: none;
+        }
+
+        .listaSeleccionable {
+            width: 80%;
+            padding: 20px;
+            border: 1px solid #cccc;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        ul .ui-selecting {
+            background: green;
+        }
+
+        ul .ui-selected {
+            background: blue;
+        };
+
+    </style>
+</head>
+
+<body>
+    <h1>Aprendiendo Efectos de JQuery</h1>
+    <button id="mostrar">mostrar!</button>
+    <div class="cajaEfecto"></div>
+
+    <hr/>
+    <h3>tooltip!</h3>
+    <a href="#" id="midDatos" title="Acceder a la seccion de mis datos"> mis datos</a>
+    <hr/>
+    <ul class="listaSeleccionable">
+        <li>GTA V</li>
+        <li>Need for speed</li>
+        <li>Hack.GU</li>
+        <li>super Mario</li>
+    </ul>
+    <div class="elemento">
+        Hola soy un elemento del Front! 1
+    </div>
+    <div class="elemento">
+        Hola soy un elemento del Front! 3
+    </div>
+    <div class="elemento">
+        Hola soy un elemento del Front! 4
+    </div>
+    <div class="elemento">
+        Hola soy un elemento del Front! 5
+    </div>
+</body>
+
+</HTMl>

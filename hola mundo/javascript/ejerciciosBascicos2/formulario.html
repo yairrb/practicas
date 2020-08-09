@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>ejercicio Dom, eventos y funciones</title>
+    <script type="text/javascript" src="json.js" ></script>
+    <style>
+        .box{
+            width: 200px;
+            height: 250px;
+            float: left;
+            margin: 20px;
+        }
+        .dashed{
+            border: 3px dashed black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--
+        1. fomulario con nombre, apellido y edad.
+        2. boton de enviar en el formulario: onSubmit
+        3. mostrar datos por pantalla
+    -->
+    <h1> ejercicio sobre un formulario y eventos</h1>
+
+    <form action="" method="POST" id="formulario" onsubmit="return false">
+        
+        <label for="nombre"> nombre:</label> <br/>
+        <input type="text" name="nombre" id="nombre"  /> <br/>
+        
+        <label for="apellidos">apellidos</label> <br/>
+        <input type="text" name="apellidos" id="apellidos"/> <br/>
+        
+        <label for="edad"> edad:</label> <br/> 
+        <input type="text" name="edad" id="edad"  /> <br/>
+        
+        <input type="submit" value="enviar" id="submit">
+        
+    </form>
+    <div class="box" ></div>
+    
+    <div class="box dashed">
+        <h3>Informacion del usuario</h3>
+        <hr>
+
+    </div>
+</body>
+
+</html>
